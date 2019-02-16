@@ -182,13 +182,14 @@ footer{
     .bod{max-width: 768px; margin:2%;}
     form{max-width:980px;}
   }
-  @media (max-width: 640px){
-    header{max-width: 640px; height: 25%;}
-    .head{max-width:640px; margin:0%;}
-    h1{width:100%;}
-    .bod{max-width: 375px; margin: none; margin-top: 5%; margin-bottom: 5%;}
-    form{max-width:370px;}
-    #image{float:none;}
-    .first{display:inline; min-width: 640px;}
-    .second{display: inline; min-width: 640px;}
+  @media (max-width: 375px){
+    header{max-width: 375px; height: 25%;}
+    .head{max-width:375px; margin:0%;}
+    h1{width:100%; text-align: center;}
+    .link{margin-left:12%;}
+    .bod{max-width: 335px; margin: none; margin-top: 5%; margin-bottom: 5%;}
+    form{max-width:330px;}
+    #image{float:none; margin-left:8%; }
+    #first{display:inline; min-width: 370px; letter-spacing: 1.5px; line-height: 1.35px; padding-top: 3px;}
+    #second{display: inline; min-width: 370px;letter-spacing: 1.5px; line-height: 1.35px; padding-top: 3px;}
   }
