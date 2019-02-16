@@ -177,12 +177,17 @@ footer{
 
   }
   @media (max-width: 768px){
-    header{max-width: 768px}
-    .head{max-width:768px}
-    .bod{max-width: 768px; margin:2%;}
-    form{max-width:980px;}
+    header{max-width: 768px; height: 25%;}
+    .head{max-width:768px; margin:0%;}
+    h1{width:100%; text-align: center;}
+    .link{margin-left:18.5%;}
+    .bod{max-width: 715px; margin: none; margin-top: 5%; margin-bottom: 5%;}
+    form{max-width:710px;}
+    #first{display:inline; min-width: 700px; letter-spacing: 1.5px; line-height: 1.35px; padding-top: 3px;}
+    #second{display: inline; min-width: 700px;letter-spacing: 1.5px; line-height: 1.35px; padding-top: 3px;}
+    .container{margin: 5%;}
   }
-  @media (max-width: 375px){
+  @media (max-width: 640px){
     header{max-width: 375px; height: 25%;}
     .head{max-width:375px; margin:0%;}
     h1{width:100%; text-align: center;}
